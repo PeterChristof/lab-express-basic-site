@@ -1,0 +1,25 @@
+.home {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#hochstuhl {
+    height: 50%;
+    width: 50%;
+}
+
+#see {
+    height: auto;
+    width: 50%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: flex-end;
+}
