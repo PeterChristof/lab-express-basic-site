@@ -23,3 +23,18 @@
     align-content: space-around;
     justify-content: flex-end;
 }
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .header {
+      background-color: beige
+  }
+
+  .sec1 {
+      background-color: bisque;
+  }
+
+  .sec2 {
+      background-color: beige;
+  }

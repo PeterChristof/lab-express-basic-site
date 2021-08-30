@@ -1,5 +1,6 @@
 
 const express = require("express");
+const { request } = require("http");
 
 // I'm creating a server named app
 const app = express();
@@ -20,6 +21,10 @@ response.sendFile("/Users/petererian/Desktop/August_2021/Module2_week1/labs/lab-
 
 app.get("/works", (request, response) => {
     response.sendFile("/Users/petererian/Desktop/August_2021/Module2_week1/labs/lab-express-basic-site/views/works.html")
+    });
+
+    app.get("/schedule", (request, response) => {
+        response.sendFile("/Users/petererian/Desktop/August_2021/Module2_week1/labs/lab-express-basic-site/views/schedule.html")
     });
 
 app.listen(3000, () => console.log("listening on port 3000"));
